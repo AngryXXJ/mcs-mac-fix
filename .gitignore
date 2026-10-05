@@ -1,0 +1,11 @@
+# 编译产物不入库（DLL 走 Release 附件）
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# 构建中间件
+mcsbuild/
+mcswork/
+
+.DS_Store
